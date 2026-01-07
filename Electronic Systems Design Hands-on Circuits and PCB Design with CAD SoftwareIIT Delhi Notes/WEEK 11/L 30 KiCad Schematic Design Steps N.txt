@@ -1,0 +1,20 @@
+L 30 KiCad Schematic Design Steps Notes:
+
+
+Circuit is made in LTspice according to specifications
+
+Note if we give the same name to two nodes then KiCad might assume they are connected even though there is no direct connection so be careful when naming wires and nodes.
+
+Lecture 33:
+
+Both the terminals of op amp are virtually short circuited
+Input impedance of op amp is very very high 
+Footprint information is generally present at the last of the datasheet too if needed
+
+important parameter is supply voltage while choosing components .
+
+The pin 5 of the opamp LMV601 is connected to ground because it is a low enabled signal. We need to check the data sheet if the component is low enabled or high enabled
+
+conn_01x05 pin means 1 array of 5 pins connector.
+
+if lets say one path is less on power then we can use a small footprint however if a path is on high power then we can use a big footprint component to sustain that power
